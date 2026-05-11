@@ -17,7 +17,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
-import { Logo, Logomark } from '@/components/Logo'
+import { Logo } from '@/components/Logo'
 import { Offices } from '@/components/Offices'
 import { SocialMedia, socialMediaProfiles } from '@/components/SocialMedia'
 import { defaultLocale, getLocalizedHref, isLocale, type Locale } from '@/i18n'
@@ -104,13 +104,8 @@ function Header({
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
         >
-          <Logomark
-            className="h-12 w-24 sm:hidden"
-            invert={invert}
-            filled={logoHovered}
-          />
           <Logo
-            className="hidden h-14 w-36 sm:block"
+            className="h-12 w-24 sm:h-14 sm:w-36"
             invert={invert}
             filled={logoHovered}
           />

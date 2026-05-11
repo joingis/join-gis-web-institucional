@@ -97,19 +97,19 @@
     },
     "team": [
       {
-        "name": "Francisco Hanna",
-        "role": "Desarrollador de software",
-        "body": "Diseña y construye la plataforma, la infraestructura web y los flujos técnicos que conectan datos, usuarios y reportes."
-      },
-      {
-        "name": "Jovino",
+        "name": "Jovino Pereyra",
         "role": "Agrimensor",
         "body": "Aporta criterio territorial, lectura de relevamientos, catastro y precisión técnica para estructurar información geográfica confiable."
       },
       {
-        "name": "Romina",
-        "role": "Arquitecta urbanismo",
+        "name": "Romina Sol Naranjo",
+        "role": "Arquitecta urbanista",
         "body": "Integra mirada urbana, planificación y comunicación espacial para transformar datos en diagnósticos y propuestas comprensibles."
+      },
+      {
+        "name": "Francisco Hanna",
+        "role": "Desarrollador de software",
+        "body": "Diseña y construye la plataforma, la infraestructura web y los flujos técnicos que conectan datos, usuarios y reportes."
       }
     ],
     "values": [
