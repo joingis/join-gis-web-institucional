@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Quiénes somos",
+    "contact": "Contacto",
+    "menu": "Abrir navegación",
+    "close": "Cerrar navegación",
+    "cta": "Contactar"
+  },
+  "common": {
+    "brand": "joinGIS",
+    "email": "hello@joingis.net",
+    "phone": "+54 382 555 4196",
+    "address": "San Rafael 1688, San Juan, Argentina",
+    "linkedin": "LinkedIn",
+    "locationLabel": "Ubicación",
+    "contactLabel": "Contacto directo",
+    "followLabel": "Redes"
+  },
+  "home": {
+    "metadata": {
+      "title": "joinGIS",
+      "description": "Infraestructura GIS, datos territoriales y análisis geoestadístico para organizaciones públicas y privadas."
+    },
+    "hero": {
+      "eyebrow": "Infraestructura territorial basada en datos",
+      "title": "Convertimos información territorial en decisiones claras.",
+      "body": "joinGIS integra software, agrimensura y urbanismo para construir plataformas de gestión de datos territoriales, reportes técnicos y análisis geoestadísticos para gobiernos, equipos técnicos y organizaciones privadas.",
+      "primaryCta": "Hablar con joinGIS",
+      "secondaryCta": "Ver servicios"
+    },
+    "stats": [
+      { "value": "GIS", "label": "Infraestructura y datos geográficos" },
+      { "value": "360°", "label": "Software, territorio y gestión urbana" },
+      { "value": "ES/EN", "label": "Comunicación bilingüe" }
+    ],
+    "platform": {
+      "eyebrow": "Plataforma",
+      "title": "Una base operativa para datos territoriales confiables.",
+      "body": "Diseñamos entornos para organizar capas, padrones, relevamientos, indicadores y reportes en flujos que puedan sostenerse en el tiempo."
+    },
+    "servicesTitle": "Servicios iniciales",
+    "sectors": {
+      "eyebrow": "Sectores",
+      "title": "Trabajamos con organismos públicos y equipos privados que necesitan leer mejor el territorio.",
+      "body": "La propuesta está pensada para municipios, áreas de catastro, planeamiento, infraestructura, ambiente, desarrollos inmobiliarios y equipos que dependen de datos espaciales para tomar decisiones."
+    }
+  },
+  "services": {
+    "metadata": {
+      "title": "Servicios",
+      "description": "Servicios de infraestructura GIS, reportes territoriales y análisis geoestadístico."
+    },
+    "intro": {
+      "eyebrow": "Servicios",
+      "title": "Capacidades GIS para ordenar, analizar y comunicar datos territoriales.",
+      "body": "Acompañamos desde la estructura técnica inicial hasta productos concretos para gestión, diagnóstico, reporte y toma de decisiones."
+    },
+    "items": [
+      {
+        "title": "Infraestructura GIS",
+        "body": "Diseño de bases, capas, servicios y flujos para administrar información geográfica con criterios técnicos consistentes."
+      },
+      {
+        "title": "Gestión de datos territoriales",
+        "body": "Normalización, integración y mantenimiento de información proveniente de relevamientos, catastros, expedientes y fuentes abiertas."
+      },
+      {
+        "title": "Reportes territoriales",
+        "body": "Generación de informes claros para áreas técnicas, dirección, presentación institucional o comunicación con terceros."
+      },
+      {
+        "title": "Análisis geoestadísticos",
+        "body": "Cruce de variables espaciales, indicadores, patrones de distribución y lectura territorial para sustentar decisiones."
+      },
+      {
+        "title": "Consultoría territorial",
+        "body": "Acompañamiento para organismos públicos y organizaciones privadas que necesitan convertir información dispersa en procesos útiles."
+      }
+    ],
+    "workflow": {
+      "eyebrow": "Método",
+      "title": "Empezamos por ordenar el problema antes de construir la solución.",
+      "body": "Relevamos fuentes, usuarios, decisiones esperadas y restricciones operativas. A partir de eso definimos entregables concretos: datos, mapas, reportes, tablero o plataforma."
+    }
+  },
+  "about": {
+    "metadata": {
+      "title": "Quiénes somos",
+      "description": "Un equipo que combina software, agrimensura y urbanismo para crear soluciones GIS."
+    },
+    "intro": {
+      "eyebrow": "Quiénes somos",
+      "title": "Un equipo técnico para problemas territoriales complejos.",
+      "body": "joinGIS nace de la combinación entre desarrollo de software, agrimensura y arquitectura urbanística. Nuestro objetivo es crear herramientas prácticas para entender, administrar y comunicar información territorial."
+    },
+    "team": [
+      {
+        "name": "Francisco Hanna",
+        "role": "Desarrollador de software",
+        "body": "Diseña y construye la plataforma, la infraestructura web y los flujos técnicos que conectan datos, usuarios y reportes."
+      },
+      {
+        "name": "Jovino",
+        "role": "Agrimensor",
+        "body": "Aporta criterio territorial, lectura de relevamientos, catastro y precisión técnica para estructurar información geográfica confiable."
+      },
+      {
+        "name": "Romina",
+        "role": "Arquitecta urbanismo",
+        "body": "Integra mirada urbana, planificación y comunicación espacial para transformar datos en diagnósticos y propuestas comprensibles."
+      }
+    ],
+    "values": [
+      { "title": "Rigor territorial", "body": "Priorizamos datos consistentes, trazables y útiles para equipos técnicos." },
+      { "title": "Claridad operativa", "body": "Buscamos que mapas, reportes y plataformas ayuden a decidir, no que sumen complejidad." },
+      { "title": "Construcción progresiva", "body": "La propuesta de valor evoluciona con casos reales, necesidades concretas y aprendizaje junto a clientes." }
+    ]
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contacto",
+      "description": "Contactá a joinGIS para conversar sobre infraestructura GIS, datos territoriales y reportes."
+    },
+    "intro": {
+      "eyebrow": "Contacto",
+      "title": "Hablemos de datos territoriales.",
+      "body": "Contanos qué información necesitás ordenar, analizar o comunicar. Podemos empezar por un diagnóstico breve y definir el mejor siguiente paso."
+    },
+    "emailAction": "Enviar email",
+    "whatsappAction": "Escribir por WhatsApp",
+    "detailsTitle": "Datos de contacto"
+  },
+  "future": {
+    "work": {
+      "eyebrow": "Casos",
+      "title": "Casos y proyectos en preparación.",
+      "body": "Esta sección se usará para mostrar implementaciones, reportes y experiencias reales de joinGIS."
+    },
+    "blog": {
+      "eyebrow": "Notas",
+      "title": "Notas técnicas en preparación.",
+      "body": "Pronto vamos a publicar contenido sobre datos territoriales, infraestructura GIS, análisis espacial y gestión urbana."
+    },
+    "process": {
+      "eyebrow": "Proceso",
+      "title": "Nuestro proceso de trabajo.",
+      "body": "Relevamos el problema, ordenamos las fuentes de datos, definimos entregables y construimos soluciones GIS progresivas."
+    }
+  },
+  "cta": {
+    "title": "¿Necesitás ordenar o analizar información territorial?",
+    "button": "Contactar a joinGIS"
+  },
+  "footer": {
+    "newsletterTitle": "Primer contacto",
+    "newsletterBody": "Escribinos para conversar sobre una plataforma, reporte o diagnóstico territorial.",
+    "copyright": "© joinGIS"
+  }
+}

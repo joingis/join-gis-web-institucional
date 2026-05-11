@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Open navigation",
+    "close": "Close navigation",
+    "cta": "Contact"
+  },
+  "common": {
+    "brand": "joinGIS",
+    "email": "hello@joingis.net",
+    "phone": "+54 382 555 4196",
+    "address": "San Rafael 1688, San Juan, Argentina",
+    "linkedin": "LinkedIn",
+    "locationLabel": "Location",
+    "contactLabel": "Direct contact",
+    "followLabel": "Social"
+  },
+  "home": {
+    "metadata": {
+      "title": "joinGIS",
+      "description": "GIS infrastructure, territorial data and geostatistical analysis for public and private organizations."
+    },
+    "hero": {
+      "eyebrow": "Data-driven territorial infrastructure",
+      "title": "We turn territorial information into clear decisions.",
+      "body": "joinGIS brings together software, surveying and urban planning to build territorial data management platforms, technical reports and geostatistical analysis for governments, technical teams and private organizations.",
+      "primaryCta": "Talk to joinGIS",
+      "secondaryCta": "View services"
+    },
+    "stats": [
+      { "value": "GIS", "label": "Geographic data and infrastructure" },
+      { "value": "360°", "label": "Software, territory and urban management" },
+      { "value": "ES/EN", "label": "Bilingual communication" }
+    ],
+    "platform": {
+      "eyebrow": "Platform",
+      "title": "An operational base for reliable territorial data.",
+      "body": "We design environments to organize layers, registries, field surveys, indicators and reports in workflows that can be sustained over time."
+    },
+    "servicesTitle": "Initial services",
+    "sectors": {
+      "eyebrow": "Sectors",
+      "title": "We work with public agencies and private teams that need a better reading of territory.",
+      "body": "The proposal is designed for municipalities, cadastre, planning, infrastructure and environmental areas, real estate developments and teams that rely on spatial data for decisions."
+    }
+  },
+  "services": {
+    "metadata": {
+      "title": "Services",
+      "description": "GIS infrastructure, territorial reports and geostatistical analysis services."
+    },
+    "intro": {
+      "eyebrow": "Services",
+      "title": "GIS capabilities to organize, analyze and communicate territorial data.",
+      "body": "We support projects from the initial technical structure to concrete products for management, diagnosis, reporting and decision-making."
+    },
+    "items": [
+      {
+        "title": "GIS infrastructure",
+        "body": "Design of databases, layers, services and workflows to manage geographic information with consistent technical criteria."
+      },
+      {
+        "title": "Territorial data management",
+        "body": "Normalization, integration and maintenance of information from surveys, cadastre, records and open sources."
+      },
+      {
+        "title": "Territorial reports",
+        "body": "Clear reports for technical teams, leadership, institutional presentation or communication with third parties."
+      },
+      {
+        "title": "Geostatistical analysis",
+        "body": "Spatial variable crossing, indicators, distribution patterns and territorial reading to support decisions."
+      },
+      {
+        "title": "Territorial consulting",
+        "body": "Support for public agencies and private organizations that need to turn scattered information into useful processes."
+      }
+    ],
+    "workflow": {
+      "eyebrow": "Method",
+      "title": "We organize the problem before building the solution.",
+      "body": "We map sources, users, expected decisions and operational constraints. From there we define concrete deliverables: data, maps, reports, dashboard or platform."
+    }
+  },
+  "about": {
+    "metadata": {
+      "title": "About",
+      "description": "A team combining software, surveying and urban planning to create GIS solutions."
+    },
+    "intro": {
+      "eyebrow": "About",
+      "title": "A technical team for complex territorial problems.",
+      "body": "joinGIS was born from the combination of software development, surveying and urban architecture. Our goal is to create practical tools to understand, manage and communicate territorial information."
+    },
+    "team": [
+      {
+        "name": "Francisco Hanna",
+        "role": "Software developer",
+        "body": "Designs and builds the platform, web infrastructure and technical flows that connect data, users and reports."
+      },
+      {
+        "name": "Jovino",
+        "role": "Surveyor",
+        "body": "Contributes territorial criteria, survey interpretation, cadastre knowledge and technical precision to structure reliable geographic information."
+      },
+      {
+        "name": "Romina",
+        "role": "Urban planning architect",
+        "body": "Integrates an urban planning perspective and spatial communication to turn data into understandable diagnoses and proposals."
+      }
+    ],
+    "values": [
+      { "title": "Territorial rigor", "body": "We prioritize consistent, traceable data that technical teams can use." },
+      { "title": "Operational clarity", "body": "Maps, reports and platforms should support decisions, not add complexity." },
+      { "title": "Progressive building", "body": "The value proposition evolves through real cases, concrete needs and learning with clients." }
+    ]
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact",
+      "description": "Contact joinGIS to discuss GIS infrastructure, territorial data and reports."
+    },
+    "intro": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about territorial data.",
+      "body": "Tell us what information you need to organize, analyze or communicate. We can start with a short diagnosis and define the best next step."
+    },
+    "emailAction": "Send email",
+    "whatsappAction": "Message on WhatsApp",
+    "detailsTitle": "Contact details"
+  },
+  "future": {
+    "work": {
+      "eyebrow": "Cases",
+      "title": "Cases and projects in preparation.",
+      "body": "This section will be used to show joinGIS implementations, reports and real project experience."
+    },
+    "blog": {
+      "eyebrow": "Notes",
+      "title": "Technical notes in preparation.",
+      "body": "Soon we will publish content about territorial data, GIS infrastructure, spatial analysis and urban management."
+    },
+    "process": {
+      "eyebrow": "Process",
+      "title": "Our working process.",
+      "body": "We study the problem, organize data sources, define deliverables and build progressive GIS solutions."
+    }
+  },
+  "cta": {
+    "title": "Need to organize or analyze territorial information?",
+    "button": "Contact joinGIS"
+  },
+  "footer": {
+    "newsletterTitle": "First contact",
+    "newsletterBody": "Write to us to discuss a platform, report or territorial diagnosis.",
+    "copyright": "© joinGIS"
+  }
+}
