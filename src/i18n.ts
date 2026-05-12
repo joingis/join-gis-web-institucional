@@ -23,3 +23,19 @@ export function getLocalizedHref(href: string, locale: Locale) {
 
   return href === '/' ? `/${locale}` : `/${locale}${href}`
 }
+
+export function switchLocalePath(pathname: string, locale: Locale) {
+  if (!pathname.startsWith('/')) {
+    return getLocalizedHref(pathname, locale)
+  }
+
+  let segments = pathname.split('/')
+  let currentLocale = segments[1]
+
+  if (currentLocale && isLocale(currentLocale)) {
+    segments[1] = locale
+    return segments.join('/') || `/${locale}`
+  }
+
+  return getLocalizedHref(pathname, locale)
+}

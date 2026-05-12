@@ -17,6 +17,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
+import { LanguageSelector } from '@/components/LanguageSelector'
 import { Logo } from '@/components/Logo'
 import { Offices } from '@/components/Offices'
 import { SocialMedia, socialMediaProfiles } from '@/components/SocialMedia'
@@ -110,7 +111,12 @@ function Header({
             filled={logoHovered}
           />
         </Link>
-        <div className="flex items-center gap-x-8">
+        <div className="flex items-center gap-x-4 sm:gap-x-6">
+          <LanguageSelector
+            locale={locale}
+            invert={invert}
+            className="hidden sm:inline-flex"
+          />
           <Button href={getLocalizedHref('/contact', locale)} invert={invert}>
             {copy.contact}
           </Button>
@@ -275,6 +281,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pt-10 pb-16 sm:grid-cols-2 sm:pt-16">
                   <div>
+                    <LanguageSelector locale={locale} invert className="mb-8" />
                     <h2 className="font-display text-base font-semibold text-white">
                       {copy.location}
                     </h2>
@@ -330,9 +337,7 @@ export function RootLayout({ children }: { children: React.ReactNode }) {
   let [logoHovered, setLogoHovered] = useState(false)
 
   return (
-    <RootLayoutContext.Provider
-      value={{ logoHovered, setLogoHovered, locale }}
-    >
+    <RootLayoutContext.Provider value={{ logoHovered, setLogoHovered, locale }}>
       <RootLayoutInner key={pathname}>{children}</RootLayoutInner>
     </RootLayoutContext.Provider>
   )

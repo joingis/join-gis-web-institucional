@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation'
 
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
+import { LanguageSelector } from '@/components/LanguageSelector'
 import { Logo } from '@/components/Logo'
 import { SocialMedia } from '@/components/SocialMedia'
 import { defaultLocale, getLocalizedHref, isLocale, type Locale } from '@/i18n'
@@ -137,9 +138,12 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-24 mb-20 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
-          <Link href={getLocalizedHref('/', locale)} aria-label="Home">
-            <Logo className="h-14 w-36" fillOnHover />
-          </Link>
+          <div className="flex flex-wrap items-center gap-4">
+            <Link href={getLocalizedHref('/', locale)} aria-label="Home">
+              <Logo className="h-14 w-36" fillOnHover />
+            </Link>
+            <LanguageSelector locale={locale} />
+          </div>
           <p className="text-sm text-neutral-700">
             {t.copyright} {new Date().getFullYear()}
           </p>
