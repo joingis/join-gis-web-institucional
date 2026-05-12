@@ -33,7 +33,7 @@
     "stats": [
       { "value": "Data", "label": "Territorial data pipelines built for day-to-day operations." },
       { "value": "Reports", "label": "Technical reports and mapped outputs ready for decision-making." },
-      { "value": "Teams", "label": "Software, surveying and urban planning working as one delivery team." }
+      { "value": "Team", "label": "Software, surveying and urban planning working as one delivery team." }
     ],
     "platform": {
       "eyebrow": "Platform",
@@ -98,7 +98,7 @@
     "team": [
       {
         "name": "Jovino Pereyra",
-        "role": "Surveyor",
+        "role": "Surveying engineer",
         "body": "Contributes territorial criteria, survey interpretation, cadastre knowledge and technical precision to structure reliable geographic information."
       },
       {

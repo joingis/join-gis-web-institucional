@@ -31,9 +31,9 @@
       "secondaryCta": "Ver servicios"
     },
     "stats": [
-      { "value": "GIS", "label": "Infraestructura y datos geográficos" },
-      { "value": "360°", "label": "Software, territorio y gestión urbana" },
-      { "value": "ES/EN", "label": "Comunicación bilingüe" }
+      { "value": "Datos", "label": "Flujos de datos territoriales pensados para la operación diaria." },
+      { "value": "Reportes", "label": "Informes técnicos y salidas cartográficas listos para la toma de decisiones." },
+      { "value": "Equipo", "label": "Software, agrimensura y urbanismo trabajando como un solo equipo de entrega." }
     ],
     "platform": {
       "eyebrow": "Plataforma",
@@ -98,7 +98,7 @@
     "team": [
       {
         "name": "Jovino Pereyra",
-        "role": "Agrimensor",
+        "role": "Ingeniero agrimensor",
         "body": "Aporta criterio territorial, lectura de relevamientos, catastro y precisión técnica para estructurar información geográfica confiable."
       },
       {
