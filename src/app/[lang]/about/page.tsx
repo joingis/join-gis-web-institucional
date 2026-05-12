@@ -1,4 +1,5 @@
 import { type Metadata } from 'next'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 import { ContactSection } from '@/components/ContactSection'
@@ -7,6 +8,7 @@ import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { GridList, GridListItem } from '@/components/GridList'
 import { PageIntro } from '@/components/PageIntro'
 import { RootLayout } from '@/components/RootLayout'
+import { LinkedInIcon } from '@/components/SocialMedia'
 import { getDictionary, isLocale } from '../dictionaries'
 
 export const metadata: Metadata = {
@@ -44,12 +46,28 @@ export default async function About({
             className="grid grid-cols-1 gap-8 lg:grid-cols-3"
           >
             {dict.about.team.map(
-              (person: { name: string; role: string; body: string }) => (
+              (person: {
+                name: string
+                role: string
+                body: string
+                linkedin: string
+              }) => (
                 <li key={person.name}>
                   <FadeIn className="h-full rounded-3xl bg-neutral-950 p-8">
-                    <h2 className="font-display text-2xl font-semibold text-white">
-                      {person.name}
-                    </h2>
+                    <div className="flex items-start justify-between gap-4">
+                      <h2 className="font-display text-2xl font-semibold text-white">
+                        {person.name}
+                      </h2>
+                      <Link
+                        href={person.linkedin}
+                        aria-label={`${dict.common.linkedin}: ${person.name}`}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="shrink-0 text-neutral-300 transition hover:text-white"
+                      >
+                        <LinkedInIcon className="h-5 w-5 fill-current" />
+                      </Link>
+                    </div>
                     <p className="mt-2 text-sm font-semibold text-neutral-300">
                       {person.role}
                     </p>

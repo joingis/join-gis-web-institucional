@@ -99,17 +99,20 @@
       {
         "name": "Jovino Pereyra",
         "role": "Surveying engineer",
-        "body": "Contributes territorial criteria, survey interpretation, cadastre knowledge and technical precision to structure reliable geographic information."
+        "body": "Contributes territorial criteria, survey interpretation, cadastre knowledge and technical precision to structure reliable geographic information.",
+        "linkedin": "https://www.linkedin.com/in/jovino-pereyra-b70605227/"
       },
       {
-        "name": "Romina Sol Naranjo",
+        "name": "Romina Naranjo",
         "role": "Urban planning architect",
-        "body": "Integrates an urban planning perspective and spatial communication to turn data into understandable diagnoses and proposals."
+        "body": "Integrates an urban planning perspective and spatial communication to turn data into understandable diagnoses and proposals.",
+        "linkedin": "https://www.linkedin.com/in/romina-naranjo-solera/"
       },
       {
         "name": "Francisco Hanna",
         "role": "Software developer",
-        "body": "Designs and builds the platform, web infrastructure and technical flows that connect data, users and reports."
+        "body": "Designs and builds the platform, web infrastructure and technical flows that connect data, users and reports.",
+        "linkedin": "https://www.linkedin.com/in/fhanna92/"
       }
     ],
     "values": [

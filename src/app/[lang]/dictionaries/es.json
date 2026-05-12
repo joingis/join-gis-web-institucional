@@ -99,17 +99,20 @@
       {
         "name": "Jovino Pereyra",
         "role": "Ingeniero agrimensor",
-        "body": "Aporta criterio territorial, lectura de relevamientos, catastro y precisión técnica para estructurar información geográfica confiable."
+        "body": "Aporta criterio territorial, lectura de relevamientos, catastro y precisión técnica para estructurar información geográfica confiable.",
+        "linkedin": "https://www.linkedin.com/in/jovino-pereyra-b70605227/"
       },
       {
-        "name": "Romina Sol Naranjo",
+        "name": "Romina Naranjo",
         "role": "Arquitecta urbanista",
-        "body": "Integra mirada urbana, planificación y comunicación espacial para transformar datos en diagnósticos y propuestas comprensibles."
+        "body": "Integra mirada urbana, planificación y comunicación espacial para transformar datos en diagnósticos y propuestas comprensibles.",
+        "linkedin": "https://www.linkedin.com/in/romina-naranjo-solera/"
       },
       {
         "name": "Francisco Hanna",
         "role": "Desarrollador de software",
-        "body": "Diseña y construye la plataforma, la infraestructura web y los flujos técnicos que conectan datos, usuarios y reportes."
+        "body": "Diseña y construye la plataforma, la infraestructura web y los flujos técnicos que conectan datos, usuarios y reportes.",
+        "linkedin": "https://www.linkedin.com/in/fhanna92/"
       }
     ],
     "values": [
